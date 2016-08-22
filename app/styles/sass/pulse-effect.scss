@@ -1,0 +1,34 @@
+@import "compass/css3";
+
+.-pulse {
+  animation: beat 12s 0s infinite ease-out;
+}
+
+@keyframes beat {
+  0%   { opacity: .6; }
+  4%   { opacity: .5; }
+  8%   { opacity: .4; }
+  12%  { opacity: .3; }
+  16%  { opacity: .2; }
+  20%  { opacity: .3; }
+  24%  { opacity: .4; }
+  28%  { opacity: .1; }
+  32%  { opacity: .4; }
+  36%  { opacity: .6; }
+  40%  { opacity: .2; }
+  44%  { opacity: .4; }
+  48%  { opacity: .7; }
+  52%  { opacity: .3; }
+  56%  { opacity: .1; }
+  60%  { opacity: .3; }
+  64%  { opacity: .5; }
+  68%  { opacity: .6; }
+  72%  { opacity: .7; }
+  76%  { opacity: .8; }
+  80%  { opacity: .7; }
+  84%  { opacity: .6; }
+  88%  { opacity: .5; }
+  92%  { opacity: .6; }
+  96%  { opacity: .8; }
+  100% { opacity: .6; }
+}

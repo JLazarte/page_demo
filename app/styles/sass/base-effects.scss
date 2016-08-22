@@ -1,0 +1,47 @@
+@import "variables";
+
+.-scroll {
+  &::-webkit-scrollbar {
+    width: 12px;
+  	background-color: rgba(0,0,0,0);
+  }
+  &::-webkit-scrollbar-track{
+	  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	  border-radius: 10px;
+	  background-color: rgba(150,150,150,0.4);;
+  }
+  &::-webkit-scrollbar-thumb
+  {
+  	border-radius: 10px;
+  	-webkit-box-shadow: inset 0   0 6px rgba(0,0,0,.3);
+  	background-color: #555;
+  }
+}
+
+.base-card{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.item{
+  &:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: $ColorBlackMid;
+  }
+  &:active{
+    background-color: $ColorBlackHigh;
+  }
+}
+
+.base-container{
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+}
+
+.base-menu{
+  .base-option{
+    &:hover{
+      background-color: $ColorBlackMid;
+      padding-bottom: 7px;
+      border-bottom: 5px solid $ColorRedLow;
+    }
+  }
+}

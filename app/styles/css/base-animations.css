@@ -1,0 +1,206 @@
+/*This is coded CSS rainbow*/
+/* line 6, ../sass/base-animations.scss */
+.-rainbow, h1, h3, .base-option, .-scroll::-webkit-scrollbar-thumb {
+  -webkit-animation: rainbow 45s infinite ease-out;
+  -ms-animation: rainbow 45s infinite ease-out;
+  -o-animation: rainbow 45s infinite ease-out;
+  animation: rainbow 45s infinite ease-out;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: #ff0000;
+    border-bottom-color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+    border-bottom-color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+    border-bottom-color: #ffff00;
+  }
+  30% {
+    color: #00ff00;
+    border-bottom-color: #00ff00;
+  }
+  40% {
+    color: #00ff80;
+    border-bottom-color: #00ff80;
+  }
+  50% {
+    color: #00ffff;
+    border-bottom-color: #00ffff;
+  }
+  60% {
+    color: #0080ff;
+    border-bottom-color: #0080ff;
+  }
+  70% {
+    color: #0000ff;
+    border-bottom-color: #002bff;
+  }
+  80% {
+    color: #8000ff;
+    border-bottom-color: #8000ff;
+  }
+  90% {
+    color: #ff0080;
+    border-bottom-color: #ff0080;
+  }
+  100% {
+    color: #ff0000;
+    border-bottom-color: #ff0000;
+  }
+}
+@-ms-keyframes rainbow {
+  0% {
+    color: #ff0000;
+    border-bottom-color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+    border-bottom-color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+    border-bottom-color: #ffff00;
+  }
+  30% {
+    color: #00ff00;
+    border-bottom-color: #00ff00;
+  }
+  40% {
+    color: #00ff80;
+    border-bottom-color: #00ff80;
+  }
+  50% {
+    color: #00ffff;
+    border-bottom-color: #00ffff;
+  }
+  60% {
+    color: #0080ff;
+    border-bottom-color: #0080ff;
+  }
+  70% {
+    color: #0000ff;
+    border-bottom-color: #002bff;
+  }
+  80% {
+    color: #8000ff;
+    border-bottom-color: #8000ff;
+  }
+  90% {
+    color: #ff0080;
+    border-bottom-color: #ff0080;
+  }
+  100% {
+    color: #ff0000;
+    border-bottom-color: #ff0000;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    color: #ff0000;
+    border-bottom-color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+    border-bottom-color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+    border-bottom-color: #ffff00;
+  }
+  30% {
+    color: #00ff00;
+    border-bottom-color: #00ff00;
+  }
+  40% {
+    color: #00ff80;
+    border-bottom-color: #00ff80;
+  }
+  50% {
+    color: #00ffff;
+    border-bottom-color: #00ffff;
+  }
+  60% {
+    color: #0080ff;
+    border-bottom-color: #0080ff;
+  }
+  70% {
+    color: #0000ff;
+    border-bottom-color: #002bff;
+  }
+  80% {
+    color: #8000ff;
+    border-bottom-color: #8000ff;
+  }
+  90% {
+    color: #ff0080;
+    border-bottom-color: #ff0080;
+  }
+  100% {
+    color: #ff0000;
+    border-bottom-color: #ff0000;
+  }
+}
+@keyframes rainbow {
+  0% {
+    color: #ff0000;
+    border-bottom-color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+    border-bottom-color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+    border-bottom-color: #ffff00;
+  }
+  30% {
+    color: #00ff00;
+    border-bottom-color: #00ff00;
+  }
+  40% {
+    color: #00ff80;
+    border-bottom-color: #00ff80;
+  }
+  50% {
+    color: #00ffff;
+    border-bottom-color: #00ffff;
+  }
+  60% {
+    color: #0080ff;
+    border-bottom-color: #0080ff;
+  }
+  70% {
+    color: #0000ff;
+    border-bottom-color: #002bff;
+  }
+  80% {
+    color: #8000ff;
+    border-bottom-color: #8000ff;
+  }
+  90% {
+    color: #ff0080;
+    border-bottom-color: #ff0080;
+  }
+  100% {
+    color: #ff0000;
+    border-bottom-color: #ff0000;
+  }
+}
+/* line 70, ../sass/base-animations.scss */
+.base-hide-slide .trunk .hide {
+  opacity: 0;
+}
+/* line 74, ../sass/base-animations.scss */
+.base-hide-slide .trunk:hover .hide {
+  -moz-transition: opacity 0.1s ease 0.3s;
+  -o-transition: opacity 0.1s ease 0.3s;
+  -webkit-transition: opacity 0.1s ease;
+  -webkit-transition-delay: 0.3s;
+  transition: opacity 0.1s ease 0.3s;
+  opacity: 1;
+}

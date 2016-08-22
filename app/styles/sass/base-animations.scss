@@ -1,0 +1,36 @@
+@import "compass/css3";
+@import "variables";
+
+/*This is coded CSS rainbow*/
+
+.-rainbow, h1, h3, .base-option, .-scroll::-webkit-scrollbar-thumb {
+  animation:rainbow 45s infinite ease-out;
+}
+
+@keyframes rainbow {
+  0%   {color: #ff0000; border-bottom-color: #ff0000;}
+  10%  {color: #ff8000; border-bottom-color: #ff8000;}
+  20%  {color: #ffff00; border-bottom-color: #ffff00;}
+  30%  {color: #00ff00; border-bottom-color: #00ff00;}
+  40%  {color: #00ff80; border-bottom-color: #00ff80;}
+  50%  {color: #00ffff; border-bottom-color: #00ffff;}
+  60%  {color: #0080ff; border-bottom-color: #0080ff;}
+  70%  {color: #0000ff; border-bottom-color: #002bff;}
+  80%  {color: #8000ff; border-bottom-color: #8000ff;}
+  90%  {color: #ff0080; border-bottom-color: #ff0080;}
+  100% {color: #ff0000; border-bottom-color: #ff0000;}
+}
+
+.base-hide-slide{
+  .trunk{
+    .hide{
+      opacity: 0;
+    }
+    &:hover{
+      .hide{
+        @include transition (opacity .1s .3s ease);
+        opacity: 1;
+      }
+    }
+  }
+}
