@@ -1,0 +1,364 @@
+@import "variables";
+
+//grilla general
+.row {
+  width: 100%;
+}
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row [class^="col"] {
+  width: 100%;
+  display: block;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row [class^="col"]:first-child {
+  margin-left: 0;
+}
+.row .col1 {
+  width: $col1;
+}
+.row .col2 {
+  width: $col2;
+}
+.row .col3 {
+  width: $col3;
+}
+.row .col4 {
+  width: $col4;
+}
+.row .col5 {
+  width: $col5;
+}
+.row .col6 {
+  width: $col6;
+}
+.row .col7 {
+  width: $col7;
+}
+.row .col8 {
+  width: $col8;
+}
+.row .col9 {
+  width: $col9;
+}
+.row .col10 {
+  width: $col10;
+}
+.row .col11 {
+  width: $col11;
+}
+.row .col12 {
+  width: $col12;
+}
+.row .col13 {
+  width: $col13;
+}
+.row .col14 {
+  width: $col14;
+}.row .col15 {
+  width: $col15;
+}
+.row .col16 {
+  width: $col16;
+}.row .col17 {
+  width: $col17;
+}
+.row .col18 {
+  width: $col18;
+}
+.row .col19 {
+  width: $col19;
+}
+.row .col20 {
+  width: $col20;
+}
+.row .col21 {
+  width: $col21;
+}
+.row .col22 {
+  width: $col22;
+}
+.row .col23 {
+  width: $col23;
+}
+.row .col24 {
+  width: $col24;
+}
+.row .col0 {
+  display: none;
+}
+
+@media (max-width: $maxMobileSize) {
+  .row [class^="col-movile"] {
+    width: $col12;
+    display: block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .row [class^="col-movile"]:first-child {
+    margin-left: 0;
+  }
+  .row .col1-movile {
+    width: $col1;
+  }
+  .row .col2-movile {
+    width: $col2;
+  }
+  .row .col3-movile {
+    width: $col3;
+  }
+  .row .col4-movile {
+    width: $col4;
+  }
+  .row .col5-movile {
+    width: $col5;
+  }
+  .row .col6-movile {
+    width: $col6;
+  }
+  .row .col7-movile {
+    width: $col7;
+  }
+  .row .col8-movile {
+    width: $col8;
+  }
+  .row .col9-movile {
+    width: $col9;
+  }
+  .row .col10-movile {
+    width: $col10;
+  }
+  .row .col11-movile {
+    width: $col11;
+  }
+  .row .col12-movile {
+    width: $col12;
+  }
+  .row .col13-movile {
+    width: $col13;
+  }
+  .row .col14-movile {
+    width: $col14;
+  }
+  .row .col15-movile {
+    width: $col15;
+  }
+  .row .col16-movile {
+    width: $col16;
+  }
+  .row .col17-movile {
+    width: $col17;
+  }
+  .row .col18-movile {
+    width: $col18;
+  }
+  .row .col19-movile {
+    width: $col19;
+  }
+  .row .col20-movile {
+    width: $col20;
+  }
+  .row .col21-movile {
+    width: $col21;
+  }
+  .row .col22-movile {
+    width: $col22;
+  }
+  .row .col23-movile {
+    width: $col23;
+  }
+  .row .col24-movile {
+    width: $col24;
+  }
+  .row .col0-movile {
+    display: none;
+  }
+}
+
+@media (min-width: $minTabletSize) and (max-width: $maxTabletSize) {
+  .row [class^="col-tablet"] {
+    width: $col12;
+    display: block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .row [class^="col-tablet"]:first-child {
+    margin-left: 0;
+  }
+  .row .col1-tablet {
+    width: $col1;
+  }
+  .row .col2-tablet {
+    width: $col2;
+  }
+  .row .col3-tablet {
+    width: $col3;
+  }
+  .row .col4-tablet {
+    width: $col4;
+  }
+  .row .col5-tablet {
+    width: $col5;
+  }
+  .row .col6-tablet {
+    width: $col6;
+  }
+  .row .col7-tablet {
+    width: $col7;
+  }
+  .row .col8-tablet {
+    width: $col8;
+  }
+  .row .col9-tablet {
+    width: $col9;
+  }
+  .row .col10-tablet {
+    width: $col10;
+  }
+  .row .col11-tablet {
+    width: $col11;
+  }
+  .row .col12-tablet {
+    width: $col12;
+  }
+  .row .col13-tablet {
+    width: $col13;
+  }
+  .row .col14-tablet {
+    width: $col14;
+  }
+  .row .col15-tablet {
+    width: $col15;
+  }
+  .row .col16-tablet {
+    width: $col16;
+  }
+  .row .col17-tablet {
+    width: $col17;
+  }
+  .row .col18-tablet {
+    width: $col18;
+  }
+  .row .col19-tablet {
+    width: $col19;
+  }
+  .row .col20-tablet {
+    width: $col20;
+  }
+  .row .col21-tablet {
+    width: $col21;
+  }
+  .row .col22-tablet {
+    width: $col22;
+  }
+  .row .col23-tablet {
+    width: $col23;
+  }
+  .row .col24-tablet {
+    width: $col24;
+  }
+  .row .col0-tablet {
+    display: none;
+  }
+}
+
+@media (min-width: $minDesktopSize) and (max-width: $maxDesktopSize) {
+  .row [class^="col-desktop"] {
+    width: $col12;
+    display: block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .row [class^="col-desktop"]:first-child {
+    margin-left: 0;
+  }
+  .row .col1-desktop {
+    width: $col1;
+  }
+  .row .col2-desktop {
+    width: $col2;
+  }
+  .row .col3-desktop {
+    width: $col3;
+  }
+  .row .col4-desktop {
+    width: $col4;
+  }
+  .row .col5-desktop {
+    width: $col5;
+  }
+  .row .col6-desktop {
+    width: $col6;
+  }
+  .row .col7-desktop {
+    width: $col7;
+  }
+  .row .col8-desktop {
+    width: $col8;
+  }
+  .row .col9-desktop {
+    width: $col9;
+  }
+  .row .col10-desktop {
+    width: $col10;
+  }
+  .row .col11-desktop {
+    width: $col11;
+  }
+  .row .col12-desktop {
+    width: $col12;
+  }
+  .row .col13-desktop {
+    width: $col13;
+  }
+  .row .col14-desktop {
+    width: $col14;
+  }
+  .row .col15-desktop {
+    width: $col15;
+  }
+  .row .col16-desktop {
+    width: $col16;
+  }
+  .row .col17-desktop {
+    width: $col17;
+  }
+  .row .col18-desktop {
+    width: $col18;
+  }
+  .row .col19-desktop {
+    width: $col19;
+  }
+  .row .col20-desktop {
+    width: $col20;
+  }
+  .row .col21-desktop {
+    width: $col21;
+  }
+  .row .col22-desktop {
+    width: $col22;
+  }
+  .row .col23-desktop {
+    width: $col23;
+  }
+  .row .col24-desktop {
+    width: $col24;
+  }
+  .row .col0-desktop {
+    display: none;
+  }
+}

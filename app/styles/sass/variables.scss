@@ -1,0 +1,48 @@
+$minMobileSize: 320px;
+$minTabletSize: 768px;
+$minDesktopSize: 1024px;
+$minBigDesktopSize: 1280px;
+
+$maxMobileSize: $minTabletSize - 1;
+$maxTabletSize: $minDesktopSize - 1;
+$maxDesktopSize: $minBigDesktopSize - 1;
+
+//GLOBAL VAR
+$menuMinHeight: 38px;
+
+$ColorRedLow:  #E84C3D;
+$ColorRedMid:  #FC3131;
+$ColorRedHigh: #E31B25;
+
+$ColorGrayLow:  #595959;
+$ColorGrayMid:  #313131;
+$ColorGrayHigh: #313131;
+
+$ColorBlackLow:  #3D3D3D;
+$ColorBlackMid:  #252525;
+$ColorBlackHigh: #101010;
+
+$col1: 4.16666%;
+$col2: 8.33333%;
+$col3: 12.5%;
+$col4: 16.66666%;
+$col5: 20.83333%;
+$col6: 25%;
+$col7: 29.16666%;
+$col8: 33.33333%;
+$col9: 37.5%;
+$col10: 41.66666%;
+$col11: 45.83333%;
+$col12: 50%;
+$col13: 54.16666%;
+$col14: 58.33333%;
+$col15: 62.5%;
+$col16: 66.66666%;
+$col17: 70.83333%;
+$col18: 75%;
+$col19: 79.16666%;
+$col20: 83.33333%;
+$col21: 87.5%;
+$col22: 91.66666%;
+$col23: 95.83333%;
+$col24: 100%;
